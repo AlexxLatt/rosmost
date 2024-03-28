@@ -47,8 +47,9 @@
                 </div>
                 <ul class="firstWindow__header__navWrapper">
                     <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">Главная</a></li>
-                    <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">Продукты платформы</a></li>
-                    <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">Для перевозчиков</a></li>
+                    <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">Продукты </a></li>
+                        <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">Преимущества</a></li>
+                    <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">РОСМОСТ</a></li>
                     <li class="firstWindow__header___navWrapper__item"><a class="link" href="#">Контакты</a></li>   
                 </ul>
 
@@ -87,10 +88,9 @@
 
 
     </section>
-      
     <section class="platformProducts">
         <div class="container">
-            <h1 class="platformProducts__title">Продукты платформы</h1>
+            <h2 class="platformProducts__title">Продукты платформы</h2>
             <div class="platformProducts__wrapper">
                 <div class="platformProducts__wrapper__item">
                     <img src="icons/iconProduct(1).png" alt="упс..." class="platformProducts__wrapper__item__icon">
@@ -121,18 +121,110 @@
                     <div class="platformProducts__wrapper__item__title">Трекинг грузов</div>
                     <div class="platformProducts__wrapper__item__descr">Все виды отслеживания:<br>
                                                                             •	Бортовые блоки<br>
-                                                                            •	GSM-связь<br>
-                                                                            •	Мобильное приложение<br>
+                                                                            •	GSM-связь
+                                                                            
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="advantages">
+        <div class="container">
+            <h1 class="advantages__title">Преимущества</h1>
+             <div id="advantages__my__custom_controlsContainer">
+                <button id="advantages__prev"></button>
+                <button id="advantages__next"></button>
+            </div>
+            <div class="advantages__my-slider">
+                <div class="advantages__my-slider__item">
+                    <div class="advantages__my-slider__item__img"><img src="icons/advantages(1).png" alt="упс..."></div>
+                    <div class="advantages__my-slider__item__title"> ТMS / Система управления перевозками</div>
+                    <div class="advantages__my-slider__item__descr">Контроль всех этапов от закупки до оплатыБесшовная интеграция продуктов в экосистеме ТМСОтслеживание статуса заказа онлайн Контроль документооборота Оперативная обработка отклонений
+ </div>
+                </div>
+                <div class="advantages__my-slider__item">
+                    <div class="advantages__my-slider__item__img"><img src="icons/advantages(1).png" alt="упс..."></div>
+                    <div class="advantages__my-slider__item__title">Фузоловушка для расширения производства</div>
+                    <div class="advantages__my-slider__item__descr">Для увеличения объемов выпускаемой продукции и в целях модернизации производства для одного из маслобойных предприятий республики Башкортостан завод Элеватормельмаш изготовил и отгрузил очередную машину типа МФС.</div>
+                </div>
+                <div class="advantages__my-slider__item">
+                    <div class="advantages__my-slider__item__img"><img src="icons/advantages(1).png" alt="упс..."></div>
+                    <div class="advantages__my-slider__item__title">Произведена мультимодальная<br> отгрузка котлов</div>   
+                    <div class="advantages__my-slider__item__descr">Мы произвели и отгрузили очередную партию промышленных котлов. Данная отгрузка была необычной, а мультимодальная (авто-, ж.д. контейнер, морской паром).</div>
+                </div>
+                <div class="advantages__my-slider__item">
+                    <div class="advantages__my-slider__item__img"><img src="icons/advantages(1).png" alt="упс..."></div>
+                    <div class="advantages__my-slider__item__title">Lorem ipsum dolor,<br> sit amet consectetur </div>
+                    <div class="advantages__my-slider__item__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At error, voluptatibus magnam reprehenderit</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rosmost">
+        <div class="container">
+            <div class="rosmost__wrapper">
+                <h2 class="rosmost__wrapper__title">Росмост</h2>
+                <button class="rosmost__wrapper__button btn">Скачать презентацию</button>
+                <div class="rosmost__wrapper__desc">Это цифровая платформа для грузоперевозок. Пользователям доступны продукты и сервисы для автоматизации закупки и исполнения перевозок: транспортные тендеры, спот-аукционы,  TMS и трекинг. Цифровые продукты Росмост объединены в экосистему, интегрированы с ИТ-системами грузоотправителей, позволяют оптимизировать рутинные процессы и значительно снизить расходы на транспортную логистику.</div>
+            </div>
+            <form action="#" class="rosmost__form">
+            
+                <img src="img/bg(form).png" alt="упс..." class="rosmost__form__img">
+                <div class="rosmost__form__wrapper">
+                    <div class="rosmost__form__wrapper__title">Зарегистрироваться</div>
 
-    <!-- <script  src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+                    <label class="rosmost__form__wrapper__label" for="nameInput">Имя:<br></label>
+                    <input class="rosmost__form__wrapper__input" type="text" id="nameInput" name="name">
+                    <label class="rosmost__form__wrapper__label" for="emailInput">Email:</label>
+                    <input class="rosmost__form__wrapper__input" type="email" id="emailInput" name="email">
+                    <label class="rosmost__form__wrapper__label" for="textInput">Компания:</label>
+                    <input class="rosmost__form__wrapper__input" type="text" id="textInput" name="text">
+                    <label class="rosmost__form__wrapper__label" for="phoneInput">Номер телефона:</label>
+                    <input class="rosmost__form__wrapper__input" type="tel" id="phoneInput" name="phone">
+                    <button class="rosmost__form__wrapper__button btn">Зарегистрироваться</button>
+                    
+
+
+
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper__item">
+                    <div class="footer__wrapper__title">О Компании</div>
+                     <ul class="footer__wrapper__list">
+                        <li class="logoWrapper"><img src="icons/logo.png" alt="упс..."> <h3>РОСМОСТ</h3></li>
+                        <li>"Росмост" - это компания, специализирующаяся на межконтинентальных перевозках. Она предоставляет широкий спектр услуг по доставке грузов и пассажиров между континентами, обеспечивая надежные и эффективные транспортные решения. "Росмост" стремится к высокому качеству обслуживания и инновационным подходам в сфере перевозок.</li>
+                     </ul>
+                </div>
+                <div class="footer__wrapper__item">
+                    <div class="footer__wrapper__title">Документы</div>
+                     <ul class="footer__wrapper__list">
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Лицензионное соглашение</a></li>
+                        <li><a href="#">Оферта</a></li>
+                     </ul>
+                </div>
+                <div class="footer__wrapper__item">
+                    <div class="footer__wrapper__title">Контакты</div>
+                    <ul class="footer__wrapper__list">
+                        <li class="tel">+7 (900) 228-00-97</li>
+                        <li class="adres">Москва, Ленинградский проспект, д. 37, корп. 3</li>
+                        <li class="email"><a href="#">info@rosmost.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script  src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script src="js/bundle.js"></script> -->
+    <script src="js/bundle.js"></script>
 </body>
 </html>
